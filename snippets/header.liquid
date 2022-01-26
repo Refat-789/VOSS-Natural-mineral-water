@@ -1,0 +1,6 @@
+{% capture the_snippet_content %}{% include 'an_preloader' %}{% endcapture %}
+{% unless the_snippet_content contains "Liquid error" %}
+{% include 'an_preloader' %}
+{% endunless %}{%- assign _style = settings.header_type -%}
+{%- assign _snippet_string = 'header-' | append: _style -%}
+{%- include _snippet_string -%}
