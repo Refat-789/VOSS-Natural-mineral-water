@@ -4,6 +4,7 @@
 {%- elsif template contains "product" and settings.product_hide_breadcrumb -%}
   {%- include "mini-breadcrumb" -%}
 {%- else -%}
+{% unless template == 'page.voss' %}
 <div class="breadcrumb {{breadcrumb_class}}">
   <div class="background-breadcrumb"></div>
   <div class="background">
@@ -198,4 +199,5 @@
     </div>
   </div>
 </div>
+{% endunless %}
 {%- endif -%}

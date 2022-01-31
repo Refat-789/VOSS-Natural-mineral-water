@@ -1,0 +1,106 @@
+<style>	
+    .insta-galery {
+	display: flex;
+	flex-wrap: wrap;
+   }
+   .insta-galery-column {
+	margin-right: 10px;
+	width: 32%;
+	margin-top: 10px;
+}
+  .insta-image {
+    display: block;
+    width: 100%;
+  }
+  .instagram-icon-with-title {
+	display: flex;
+	justify-content: center;
+   }
+   .custom-instagram {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+</style>
+
+<section class="custom-instagram">
+    <div class="instagram-icon-with-title">
+        <div class="instagram-icon-part">
+            <img src="{{ section.settings.insta_icon | img_url: 'master' }}" class="insta-icon">
+        </div>
+        <div class="instagram-title-part">
+            <span class="tag-line">{{ section.settings.insta_header }}</span>
+            <p class="tag-line">{{ section.settings.insta_brand }}</p>
+        </div>
+    </div>
+   <div class="container">
+    <div class="insta-galery">  
+        {% for block in section.blocks %}
+          <div class="insta-galery-column">
+            <div class="insta-block">
+                <a href="{{ block.settings.insta_desc_url }}" class="caption">
+                    <img src="{{ block.settings.insta_image | img_url: 'master' }}" class="insta-image">
+                </a>
+            </div>
+              </div>
+        {% endfor %}    
+        </div>
+   </div>
+    
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Instagram section",
+  "settings": [
+    {
+        "type": "image_picker",
+        "id": "insta_icon",
+        "label": "Choose Icon"
+    },
+    {
+      "type": "text",
+      "id": "insta_header",
+      "label": "Instagram Heading",
+      "default": "Follow us"
+    },
+    {
+      "type": "text",
+      "id": "insta_brand",
+      "label": "Instagram Brand",
+      "default": "@vossarabia"
+    }
+  ],
+
+  "blocks": [
+		{
+		 "type": "insta_images",
+		  "name": "Insta block",
+			"settings":[
+				{
+					"type": "image_picker",
+					"id": "insta_image",
+					"label": "Choose Image"
+				},
+				{
+					"type": "url",
+					"id":  "insta_desc_url",
+					"label": "Insta Image link"
+				}
+			]
+		}
+	],
+  "presets":[
+       {
+         "category": "Social",
+         "name": "Instagram section"
+       }
+  ]
+} 
+{% endschema %}
+
+
+
+{% javascript %}
+{% endjavascript %}

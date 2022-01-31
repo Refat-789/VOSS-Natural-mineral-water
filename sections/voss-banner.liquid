@@ -1,0 +1,66 @@
+<style>
+.voss-banner-section {
+	height: 520px;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.voss-banner-section .voss-banner-title {
+    font-size: 40px;
+    color: #fff;
+    max-width: 350px;
+    line-height: 1.2;
+}
+.voss-banner-section .voss-banner-description {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+}
+     
+ </style>
+
+
+<div class="voss-banner-section" style="background-image:url('{{ section.settings.voss_banner | img_url: 'master' }}')">
+    <div class="voss-banner-content">
+        <div class="container">
+            <div class="voss-banner-title">{{section.settings.voss_banner_title}}</div>
+            <div class="voss-banner-description">{{section.settings.voss_banner_des}}</div>
+        </div>
+    </div>
+</div>
+ 
+ {% schema %}
+   {
+     "name": "Voss Banner Section",
+     "settings": [
+         {
+         "type": "image_picker",
+         "id": "voss_banner",
+         "label": "Choose Voss Banner Background Image"
+       },
+       {
+         "type": "text",
+         "id": "voss_banner_title",
+         "label": "Voss Banner title",
+         "default": "NATURALLY PURE ICONIC BOTTLE"
+       },
+       {
+         "type": "textarea",
+         "id": "voss_banner_des",
+         "label": "Voss Banner Description",
+         "default": "NOW AVAILABLE IN PLASTIC"
+       }
+     ],
+   "presets":[
+        {
+          "category": "banner",
+          "name": "Voss Banner Section"
+        }
+   ]
+   }
+ {% endschema %}
+ 
+ 
+
+{% javascript %}
+{% endjavascript %}

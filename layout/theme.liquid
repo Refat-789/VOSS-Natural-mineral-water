@@ -97,32 +97,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="background">
           <div class="shadow"></div>
           <div class="pattern">
-            <div class="container">
-              <div class="row">
-                {%- if template == 'index' -%}
+            {%- if template == 'page.voss' -%}
+              <div class="container-fluid">
                 <div class="col-md-12">
                   <div class="row">
                     {{content_for_layout}}
                   </div>
                 </div>
-                {%- else -%}
-                <div class="col-md-12">
-                  <div class="row">
-                    {{content_for_layout}}
-                  </div>
-                  {%- if template == 'product' -%}
-                  {%- if settings.product_bottom_banner -%}
-                  {%- section 'banner' -%}
-                  {%- endif -%}
-                  {%- include 'product-bottom' -%}
-                  {%- endif -%}
-                  {%- if settings.ctemplate_type == "promo" and template contains "collection"  and template != "list-collections" -%}
-                  {%- section 'banner' -%}
-                  {%- endif -%}
-                </div>
-                {%- endif -%}
               </div>
-            </div>    
+              {%- else -%}
+              <div class="container">
+                <div class="row">
+                  {%- if template == 'index' -%}
+                  <div class="col-md-12">
+                    <div class="row">
+                      {{content_for_layout}}
+                    </div>
+                  </div>
+                  {%- else -%}
+                  <div class="col-md-12">
+                    <div class="row">
+                      {{content_for_layout}}
+                    </div>
+                    {%- if template == 'product' -%}
+                    {%- if settings.product_bottom_banner -%}
+                    {%- section 'banner' -%}
+                    {%- endif -%}
+                    {%- include 'product-bottom' -%}
+                    {%- endif -%}
+                    {%- if settings.ctemplate_type == "promo" and template contains "collection"  and template != "list-collections" -%}
+                    {%- section 'banner' -%}
+                    {%- endif -%}
+                  </div>
+                  {%- endif -%}
+                </div>
+              </div>  
+            {%- endif -%}  
           </div>
         </div>
       </div>

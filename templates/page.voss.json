@@ -1,0 +1,192 @@
+{
+  "sections": {
+    "1643620852e9939cdd": {
+      "type": "voss-banner",
+      "settings": {
+        "voss_banner": "shopify:\/\/shop_images\/voss_online_banner.png",
+        "voss_banner_title": "NATURALLY PURE ICONIC BOTTLE",
+        "voss_banner_des": "NOW AVAILABLE IN PLASTIC"
+      }
+    },
+    "1567495249806": {
+      "type": "banner",
+      "blocks": {
+        "1571547346549": {
+          "type": "product",
+          "settings": {
+            "product_id": "al-ain-zero-sodium-water-count-12-x-200ml",
+            "product_width": 25,
+            "product_mobile_width": 50,
+            "product_bg_color": "#ffffff",
+            "product_shadow": false,
+            "product_borders": "1",
+            "product_borders_top": true,
+            "product_borders_bottom": true,
+            "product_borders_left": true,
+            "product_borders_right": true,
+            "product_mobile_borders": "0",
+            "product_mobile_borders_top": false,
+            "product_mobile_borders_bottom": false,
+            "product_mobile_borders_left": false,
+            "product_mobile_borders_right": false
+          }
+        },
+        "1567495338694": {
+          "type": "product",
+          "settings": {
+            "product_id": "al-ain-zero-sodium-water-count-12-x-330-ml",
+            "product_width": 25,
+            "product_mobile_width": 50,
+            "product_bg_color": "#ffffff",
+            "product_shadow": false,
+            "product_borders": "1",
+            "product_borders_top": true,
+            "product_borders_bottom": true,
+            "product_borders_left": true,
+            "product_borders_right": true,
+            "product_mobile_borders": "0",
+            "product_mobile_borders_top": false,
+            "product_mobile_borders_bottom": false,
+            "product_mobile_borders_left": false,
+            "product_mobile_borders_right": false
+          }
+        },
+        "1567495384230": {
+          "type": "product",
+          "settings": {
+            "product_id": "al-ain-zero-sodium-water-count-12-x-500",
+            "product_width": 25,
+            "product_mobile_width": 50,
+            "product_bg_color": "#ffffff",
+            "product_shadow": false,
+            "product_borders": "1",
+            "product_borders_top": true,
+            "product_borders_bottom": true,
+            "product_borders_left": true,
+            "product_borders_right": true,
+            "product_mobile_borders": "0",
+            "product_mobile_borders_top": false,
+            "product_mobile_borders_bottom": false,
+            "product_mobile_borders_left": false,
+            "product_mobile_borders_right": false
+          }
+        },
+        "1567495386960": {
+          "type": "product",
+          "settings": {
+            "product_id": "al-ain-zero-sodium-water-6-count-1-5l",
+            "product_width": 25,
+            "product_mobile_width": 50,
+            "product_bg_color": "#ffffff",
+            "product_shadow": false,
+            "product_borders": "1",
+            "product_borders_top": true,
+            "product_borders_bottom": true,
+            "product_borders_left": true,
+            "product_borders_right": true,
+            "product_mobile_borders": "0",
+            "product_mobile_borders_top": false,
+            "product_mobile_borders_bottom": false,
+            "product_mobile_borders_left": false,
+            "product_mobile_borders_right": false
+          }
+        }
+      },
+      "block_order": [
+        "1571547346549",
+        "1567495338694",
+        "1567495384230",
+        "1567495386960"
+      ],
+      "settings": {
+        "placement_fullwidth": false,
+        "visible_on_mobile": true,
+        "margin_top": 50,
+        "paddings": 2,
+        "heading": "",
+        "heading_color": "",
+        "heading_bd_color": "",
+        "heading_fontsize": 25,
+        "heading_fontweight": 400,
+        "background_use": false,
+        "background_img_quality": "1920x",
+        "background_color": "#e6e6e6"
+      }
+    },
+    "1643621070ea96e6b0": {
+      "type": "voss-description",
+      "settings": {
+        "voss_description_background_image": "shopify:\/\/shop_images\/15C7C9F7-4B58-4F4E-BD75-A57007ED4FC9.png",
+        "voss_description_image": "shopify:\/\/shop_images\/bitmap_6.jpg",
+        "voss_description_title": "VOSS",
+        "voss_description_des": "Ever since we arrived on the scene over 20 years ago, VOSS has been known for its uniquely beautiful bottle design. While we agree that our bottle is pretty special, you need to look inside to really see where we shine. Now, VOSS has a full line of premium waters designed to fit your day-to-day, no matter where it takes you."
+      }
+    },
+    "16436212416ae1639b": {
+      "type": "followus",
+      "blocks": {
+        "6b341323-6974-4688-ac82-a4cfefb16dab": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/rectangle-copy-6.png",
+            "insta_desc_url": ""
+          }
+        },
+        "329afda5-cfd9-4efd-9f35-5a17640c6d2d": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/rectangle-copy-6.png",
+            "insta_desc_url": ""
+          }
+        },
+        "4d1049f2-bc73-4cf5-94d1-a577534bcd9f": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/rectangle-copy-6.png",
+            "insta_desc_url": ""
+          }
+        },
+        "7f700dce-3dbb-4bf7-92c6-682914c1649f": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/rectangle-copy-6.png",
+            "insta_desc_url": ""
+          }
+        },
+        "8555c5d5-4843-46dc-93e9-6e77ad55bee3": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/rectangle-copy-6.png",
+            "insta_desc_url": ""
+          }
+        },
+        "d5820475-3567-4049-a379-22d5611c1fbd": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/rectangle-copy-6.png",
+            "insta_desc_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "6b341323-6974-4688-ac82-a4cfefb16dab",
+        "329afda5-cfd9-4efd-9f35-5a17640c6d2d",
+        "4d1049f2-bc73-4cf5-94d1-a577534bcd9f",
+        "7f700dce-3dbb-4bf7-92c6-682914c1649f",
+        "8555c5d5-4843-46dc-93e9-6e77ad55bee3",
+        "d5820475-3567-4049-a379-22d5611c1fbd"
+      ],
+      "settings": {
+        "insta_icon": "shopify:\/\/shop_images\/icon_4_2x_8d421a95-5429-483c-b5af-4ae10cffe4e9.png",
+        "insta_header": "Follow us",
+        "insta_brand": "@vossarabia"
+      }
+    }
+  },
+  "order": [
+    "1643620852e9939cdd",
+    "1567495249806",
+    "1643621070ea96e6b0",
+    "16436212416ae1639b"
+  ]
+}

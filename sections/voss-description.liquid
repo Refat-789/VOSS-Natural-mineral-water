@@ -1,0 +1,93 @@
+<style>
+.voss-description-section {
+  background-image: linear-gradient(to bottom, #4697c1, #b4d8ef);
+  padding: 40px 0;
+}
+.voss-description-content {
+	display: flex;
+	align-items: center;
+}
+.voss-description-content > div {
+	width: 50%;
+}
+.voss-description-content-img-part {
+	background-size: contain;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.voss-description-content-img-part img {
+	height: 250px;
+}
+.voss-description-content-text-part {
+	padding: 20px;
+    color: #fff;
+}
+.voss-description-title {
+	font-size: 30px;
+}
+.voss-description-description {
+	font-size: 16px;
+}
+
+     
+ </style>
+
+
+<div class="voss-description-section" >
+        <div class="container-fluid">
+          <div class="voss-description-content">
+              <div class="voss-description-content-img-part" style="background-image:url('{{ section.settings.voss_description_background_image | img_url: 'master' }}')">
+                  <img src="{{ section.settings.voss_description_image | img_url: 'master' }}" alt="voss">
+              </div>
+              <div class="voss-description-content-text-part">
+                <div class="voss-description-title">{{section.settings.voss_description_title}}</div>
+                <div class="voss-description-description">{{section.settings.voss_description_des}}</div>
+            </div>
+          </div>
+        </div>
+</div>
+ 
+ 
+ 
+ 
+ {% schema %}
+   {
+     "name": "Voss Description Section",
+     "settings": [
+         {
+         "type": "image_picker",
+         "id": "voss_description_background_image",
+         "label": "Choose Voss description Background Image"
+       },
+        {
+         "type": "image_picker",
+         "id": "voss_description_image",
+         "label": "Choose Voss description Image"
+       },
+       {
+         "type": "text",
+         "id": "voss_description_title",
+         "label": "Voss description title",
+         "default": "VOSS"
+       },
+       {
+         "type": "textarea",
+         "id": "voss_description_des",
+         "label": "Voss description Description",
+         "default": "Ever since we arrived on the scene over 20 years ago, VOSS has been known for its uniquely beautiful bottle design. While we agree that our bottle is pretty special, you need to look inside to really see where we shine. Now, VOSS has a full line of premium waters designed to fit your day-to-day, no matter where it takes you."
+       }
+     ],
+   "presets":[
+        {
+          "category": "content",
+          "name": "Voss Description Section"
+        }
+   ]
+   }
+ {% endschema %}
+ 
+ 
+
+{% javascript %}
+{% endjavascript %}
