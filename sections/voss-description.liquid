@@ -37,7 +37,7 @@
 <div class="voss-description-section" >
         <div class="container-fluid">
           <div class="voss-description-content">
-              <div class="voss-description-content-img-part" style="background-image:url('{{ section.settings.voss_description_background_image | img_url: 'master' }}')">
+              <div class="voss-description-content-img-part">
                   <img src="{{ section.settings.voss_description_image | img_url: 'master' }}" alt="voss">
               </div>
               <div class="voss-description-content-text-part">
@@ -55,11 +55,6 @@
    {
      "name": "Voss Description Section",
      "settings": [
-         {
-         "type": "image_picker",
-         "id": "voss_description_background_image",
-         "label": "Choose Voss description Background Image"
-       },
         {
          "type": "image_picker",
          "id": "voss_description_image",

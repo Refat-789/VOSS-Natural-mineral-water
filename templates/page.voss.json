@@ -3,7 +3,7 @@
     "1643620852e9939cdd": {
       "type": "voss-banner",
       "settings": {
-        "voss_banner": "shopify:\/\/shop_images\/voss_online_banner.png",
+        "voss_banner": "shopify:\/\/shop_images\/voss_banner.png",
         "voss_banner_title": "NATURALLY PURE ICONIC BOTTLE",
         "voss_banner_des": "NOW AVAILABLE IN PLASTIC"
       }
@@ -116,8 +116,7 @@
     "1643621070ea96e6b0": {
       "type": "voss-description",
       "settings": {
-        "voss_description_background_image": "shopify:\/\/shop_images\/15C7C9F7-4B58-4F4E-BD75-A57007ED4FC9.png",
-        "voss_description_image": "shopify:\/\/shop_images\/bitmap_6.jpg",
+        "voss_description_image": "shopify:\/\/shop_images\/voss_description.png",
         "voss_description_title": "VOSS",
         "voss_description_des": "Ever since we arrived on the scene over 20 years ago, VOSS has been known for its uniquely beautiful bottle design. While we agree that our bottle is pretty special, you need to look inside to really see where we shine. Now, VOSS has a full line of premium waters designed to fit your day-to-day, no matter where it takes you."
       }
@@ -177,7 +176,7 @@
         "d5820475-3567-4049-a379-22d5611c1fbd"
       ],
       "settings": {
-        "insta_icon": "shopify:\/\/shop_images\/icon_4_2x_8d421a95-5429-483c-b5af-4ae10cffe4e9.png",
+        "insta_icon": "shopify:\/\/shop_images\/instagram.png",
         "insta_header": "Follow us",
         "insta_brand": "@vossarabia"
       }

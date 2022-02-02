@@ -4,6 +4,7 @@
     "main_logo": "shopify:\/\/shop_images\/logo.png",
     "logo_max_width": "135",
     "mobile_logo_max_width": "60",
+    "voss_main_logo": "shopify:\/\/shop_images\/vosslogo.png",
     "favicon": true,
     "iphone_icon": true,
     "iphone_icon_retina": true,
@@ -5529,6 +5530,21 @@
           "background_use": false,
           "background_img_quality": "1000x",
           "background_color": "#e6e6e6"
+        }
+      },
+      "voss-header-top-block": {
+        "type": "voss-header-top-block",
+        "settings": {
+          "voss_header_top_block_text": "FREE UAE DELIVERY"
+        }
+      },
+      "voss-footer": {
+        "type": "voss-footer",
+        "settings": {
+          "voss_footer_title": "Contact us",
+          "voss_footer_addr": "Sky Tower, 17th Floor, Al Reem Island, P. O. Box 37725, Abu Dhabi, UAE",
+          "voss_footer_tel": "+971 2 672 6070",
+          "voss_footer_mail": "info@agthia.com"
         }
       }
     },

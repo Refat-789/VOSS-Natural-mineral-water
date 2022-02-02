@@ -4,16 +4,23 @@
   <div class="background">
     <div class="shadow"></div>
     <div class="pattern">
-      <div class="container">
-        {%- if settings.footer_section_top_layout != "" -%}
-          {%- section "footer-top" -%}
-        {%- endif -%}
-        {%- include "footer-center" -%}
-        {%- if settings.footer_section_bottom_layout != "" -%}
-          {%- section "footer-bottom" -%}
-        {%- endif -%}
-        {%- section "footer-copyright" -%}
-      </div>
+
+        {%- if template == 'page.voss' -%}
+          {%- section "voss-footer" -%}
+        {%- else -%}
+        
+          <div class="container">
+          {%- if settings.footer_section_top_layout != "" -%}
+            {%- section "footer-top" -%}
+          {%- endif -%}
+          {%- include "footer-center" -%}
+          {%- if settings.footer_section_bottom_layout != "" -%}
+            {%- section "footer-bottom" -%}
+          {%- endif -%}
+          {%- section "footer-copyright" -%}
+          
+          </div>
+        {%- endif -%}  
     </div>
   </div>
 </div>

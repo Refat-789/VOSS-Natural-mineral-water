@@ -42,6 +42,14 @@
       },
       {
         "type": "header",
+        "content": "Voss Logo Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "voss_main_logo"
+      },
+      {
+        "type": "header",
         "content": "Favicon (Normal Screen)"
       },
       {
@@ -4702,6 +4710,22 @@
         "type": "image_picker",
         "id": "icon_cart_hover",
         "label": "Icon Hover"
+      },
+      {
+        "type": "image_picker",
+        "id": "voss_icon_cart",
+        "label": "Voss Icon"
+      },
+      {
+        "type": "text",
+        "id": "voss_cart_text",
+        "label": "Voss Cart text ",
+        "default": "Bag"
+      },
+      {
+        "type": "image_picker",
+        "id": "voss_icon_cart_hover",
+        "label": "Voss Icon Hover"
       },
       {
         "type": "header",

@@ -1,0 +1,70 @@
+<style>
+   #shopify-section-voss-footer {
+	text-align: center;
+	background: #76a3cc;
+	color: #fff;
+    padding: 30px 0 50px;
+}
+.voss-footer a {
+	display: inline-block;
+	color: #fff !important;
+}
+    
+         
+</style>
+    
+    
+    <div class="container-fluid">
+        <div class="voss-footer">
+            <h4 class="voss-footer-title">{{section.settings.voss_footer_title}}</h4>
+            <p class="voss-footer-address">{{section.settings.voss_footer_addr}}</p>
+            <a href="tel:{{section.settings.voss_footer_tel}}">Tel:  {{section.settings.voss_footer_tel}}</a><br>
+            <a href="mailto:{{section.settings.voss_footer_mail}}">Email:  <u>{{section.settings.voss_footer_mail}}</u></a>
+        </div>
+    </div>
+     
+     
+     
+     
+     {% schema %}
+       {
+         "name": "Voss Footer",
+         "settings": [
+           {
+             "type": "text",
+             "id": "voss_footer_title",
+             "label": "Voss Footer Title",
+             "default": "Contact us"
+           },
+           {
+             "type": "textarea",
+             "id": "voss_footer_addr",
+             "label": "Voss Footer Address",
+             "default": "Sky Tower, 17th Floor, Al Reem Island, P. O. Box 37725, Abu Dhabi, UAE"
+           },
+           {
+             "type": "text",
+             "id": "voss_footer_tel",
+             "label": "Voss Footer Telephone Number",
+             "default": "+971 2 672 6070"
+           },
+           {
+             "type": "text",
+             "id": "voss_footer_mail",
+             "label": "Voss Footer Email Address",
+             "default": "info@agthia.com"
+           }
+         ],
+       "presets":[
+            {
+              "category": "footer",
+              "name": "Voss Footer"
+            }
+       ]
+       }
+     {% endschema %}
+     
+     
+    
+    {% javascript %}
+    {% endjavascript %}

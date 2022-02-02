@@ -1,0 +1,39 @@
+<style>
+.voss-top-bar {
+	background: #76a3cc;
+	text-align: center;
+	padding: 3px;
+}
+.voss-header-top-block-text p {
+	color: #fff;
+	font-size: 12px;
+	margin: 0;
+}     
+</style> 
+
+  <div class="voss-header-top-block-text">
+      <p>{{section.settings.voss_header_top_block_text}}</p>
+  </div>
+    
+    {% schema %}
+      {
+        "name": "Voss Header Top Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "voss_header_top_block_text",
+            "label": "Voss Header Top Block Text",
+            "default": "FREE UAE DELIVERY"
+          }
+        ],
+      "presets":[
+           {
+             "category": "header_top",
+             "name": "Voss Header Top Block"
+           }
+      ]
+      }
+    {% endschema %}
+    
+   {% javascript %}
+   {% endjavascript %}

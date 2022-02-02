@@ -1,3 +1,17 @@
+{%- if template == 'page.voss' -%}
+<div class="logo">
+  <a href="/pages/voss-natural-mineral-water" title="Voss Natural Minaral Water">
+    {%- assign _logo = "vosslogo.png" | asset_img_url: 'master'  -%}
+    {%- if settings.voss_main_logo != blank -%}
+    {%- assign _logo = settings.voss_main_logo | img_url: 'master' -%}
+    {%- endif -%}
+    <img src="{{ _logo }}"{{' '}}{%-if settings.logo_max_width != blank -%}style="max-width:{{settings.logo_max_width}}px;"{%-endif-%}{{' '}}title="Voss Natural Minaral Water" alt="Voss Natural Minaral Water Img" />
+ </a>
+</div>
+
+{%- else -%}
+
+
 <div class="logo">
   <a href="{{shop.url}}" title="{{ shop.name | escape }}">
     {%- assign _logo = "fastor4logo.png" | asset_img_url: 'master'  -%}
@@ -7,6 +21,8 @@
     <img src="{{ _logo }}"{{' '}}{%-if settings.logo_max_width != blank -%}style="max-width:{{settings.logo_max_width}}px;"{%-endif-%}{{' '}}title="{{ shop.name | escape }}" alt="{{ shop.name | escape }}" />
  </a>
 </div>
+
+{%- endif -%} 
 {% comment %}
 <div class="logo">
   <a href="{{shop.url}}" title="{{ shop.name | escape }}">
